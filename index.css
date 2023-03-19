@@ -1,0 +1,93 @@
+/* universal operator */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background-image */
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("pexels-maxyne-barcel-10402282\ 1.png");
+    background-size: cover ;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+/* main-header */
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+}
+
+/* logo img */
+
+.logo , img{
+     
+    margin: 20px 30px;
+}
+
+/*  all are navbar */
+/* ul list */
+.ul-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* li list  */
+.li-list{
+    list-style: none;
+    
+}
+.li-list, a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #f5e942;
+    padding: 50px 10px;
+}
+
+/* work on order btn */
+
+.order-btn{
+    background-color: #ff6347;
+    padding: 15px 50px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* first button */
+
+button {
+    margin: 40px 40px;
+}
+/* section content */
+h1 , .content{
+    font-family: "Dela Gothic One";
+    color: rgb(255, 208, 0);
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 8rem;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    line-height: 130PX;
+}
+/* second btn (read our menu) */
+.second-btn{
+    background-color: #ff6347;
+    padding: 15px 50px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+}
+
+/* footer logo */
+.footer-logo{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
